@@ -93,27 +93,14 @@ projectLarm
 nenwa@LAPTOP-O8SFB5P3 MINGW64 ~/testrepo (master)
 $ git status
 warning: could not open directory 'AppData/Local/Application Data/': Permission denied
-warning: could not open directory 'Application Data/': Permission denied
-warning: could not open directory 'Cookies/': Permission denied
-warning: could not open directory 'Local Settings/': Permission denied
-warning: could not open directory 'My Documents/': Permission denied
-warning: could not open directory 'NetHood/': Permission denied
-warning: could not open directory 'PrintHood/': Permission denied
-warning: could not open directory 'Recent/': Permission denied
-warning: could not open directory 'SendTo/': Permission denied
-warning: could not open directory 'Start Menu/': Permission denied
+...
 warning: could not open directory 'Templates/': Permission denied
 On branch master
 Changes not staged for commit:
   (use "git add <file>..." to update what will be committed)
-  (use "git restore <file>..." to discard changes in working directory)
-        modified:   ../Desktop/testrepo/greeting.txt
-
-Untracked files:
+  (...
   (use "git add <file>..." to include in what will be committed)
-.
-.
-.
+....
         ./
 
 no changes added to commit (use "git add" and/or "git commit -a")
@@ -124,15 +111,7 @@ $ git add "greetings.txt"
 nenwa@LAPTOP-O8SFB5P3 MINGW64 ~/testrepo (master)
 $ git commit -m "Unbelievable"
 warning: could not open directory 'AppData/Local/Application Data/': Permission denied
-warning: could not open directory 'Application Data/': Permission denied
-warning: could not open directory 'Cookies/': Permission denied
-warning: could not open directory 'Local Settings/': Permission denied
-warning: could not open directory 'My Documents/': Permission denied
-warning: could not open directory 'NetHood/': Permission denied
-warning: could not open directory 'PrintHood/': Permission denied
-warning: could not open directory 'Recent/': Permission denied
-warning: could not open directory 'SendTo/': Permission denied
-warning: could not open directory 'Start Menu/': Permission denied
+....
 warning: could not open directory 'Templates/': Permission denied
 On branch master
 Changes not staged for commit:
@@ -221,15 +200,7 @@ Commit contents options
 nenwa@LAPTOP-O8SFB5P3 MINGW64 ~/testrepo (main)
 $ git commit -m "hsdfhah"
 warning: could not open directory 'AppData/Local/Application Data/': Permission denied
-warning: could not open directory 'Application Data/': Permission denied
-warning: could not open directory 'Cookies/': Permission denied
-warning: could not open directory 'Local Settings/': Permission denied
-warning: could not open directory 'My Documents/': Permission denied
-warning: could not open directory 'NetHood/': Permission denied
-warning: could not open directory 'PrintHood/': Permission denied
-warning: could not open directory 'Recent/': Permission denied
-warning: could not open directory 'SendTo/': Permission denied
-warning: could not open directory 'Start Menu/': Permission denied
+...
 warning: could not open directory 'Templates/': Permission denied
 On branch main
 Changes not staged for commit:
@@ -240,58 +211,7 @@ Changes not staged for commit:
 Untracked files:
   (use "git add <file>..." to include in what will be committed)
         ../.bash_history
-        ../.codelite-gdbinit
-        ../.docker/
-        ../.git-credentials
-        ../.gitconfig
-        ../.lesshst
-        ../.viminfo
-        ../.vscode/
-        ../3D Objects/
-        ../AppData/
-        ../Contacts/
-        ../Desktop/Discord.lnk
-        ../Desktop/Docker Desktop.lnk
-        ../Desktop/Firefox.lnk
-        ../Desktop/Install GHC dev dependencies.lnk
-        ../Desktop/Mingw haskell shell.lnk
-        ../Desktop/Mingw package management docs.url
-        ../Desktop/Nenwa - Chrome.lnk
-        ../Desktop/New folder/
-        ../Desktop/Personal - Edge.lnk
-        ../Desktop/Uninstall Haskell.ps1
-        ../Desktop/Visual Studio Code.lnk
-        "../Desktop/allm\303\244n/"
-        ../Desktop/desktop.ini
-        ../Desktop/haskell/
-        ../Desktop/lab5mop/
-        "../Desktop/linj\303\244r algebra/"
-        ../Desktop/oop/
-        ../Desktop/testrepo/README.md
-        ../Desktop/testrepo/larm/
-        ../Desktop/testrepo/testFile
-        ../Documents/
-        ../Downloads/
-        ../Favorites/
-        ../Haskell/
-        ../IntelGraphicsProfiles/
-        ../Lab1-1 (1).hs
-        ../Links/
-        ../Music/
-        ../NTUSER.DAT
-        ../NTUSER.DAT{e0110321-c362-11ec-b271-8e2c76fc05b0}.TM.blf
-        ../NTUSER.DAT{e0110321-c362-11ec-b271-8e2c76fc05b0}.TMContainer00000000000000000001.regtrans-ms
-        ../NTUSER.DAT{e0110321-c362-11ec-b271-8e2c76fc05b0}.TMContainer00000000000000000002.regtrans-ms
-        ../OneDrive/
-        ../Pictures/
-        ../Saved Games/
-        ../Searches/
-        ../Videos/
-        ../dat044/
-        ../devel/
-        ../nslookup
-        ../ntuser.dat.LOG1
-        ../ntuser.dat.LOG2
+        ...
         ../ntuser.ini
         projectLarm/
 
@@ -330,58 +250,7 @@ Changes not staged for commit:
 Untracked files:
   (use "git add <file>..." to include in what will be committed)
         ../.bash_history
-        ../.codelite-gdbinit
-        ../.docker/
-        ../.git-credentials
-        ../.gitconfig
-        ../.lesshst
-        ../.viminfo
-        ../.vscode/
-        ../3D Objects/
-        ../AppData/
-        ../Contacts/
-        ../Desktop/Discord.lnk
-        ../Desktop/Docker Desktop.lnk
-        ../Desktop/Firefox.lnk
-        ../Desktop/Install GHC dev dependencies.lnk
-        ../Desktop/Mingw haskell shell.lnk
-        ../Desktop/Mingw package management docs.url
-        ../Desktop/Nenwa - Chrome.lnk
-        ../Desktop/New folder/
-        ../Desktop/Personal - Edge.lnk
-        ../Desktop/Uninstall Haskell.ps1
-        ../Desktop/Visual Studio Code.lnk
-        "../Desktop/allm\303\244n/"
-        ../Desktop/desktop.ini
-        ../Desktop/haskell/
-        ../Desktop/lab5mop/
-        "../Desktop/linj\303\244r algebra/"
-        ../Desktop/oop/
-        ../Desktop/testrepo/README.md
-        ../Desktop/testrepo/larm/
-        ../Desktop/testrepo/testFile
-        ../Documents/
-        ../Downloads/
-        ../Favorites/
-        ../Haskell/
-        ../IntelGraphicsProfiles/
-        ../Lab1-1 (1).hs
-        ../Links/
-        ../Music/
-        ../NTUSER.DAT
-        ../NTUSER.DAT{e0110321-c362-11ec-b271-8e2c76fc05b0}.TM.blf
-        ../NTUSER.DAT{e0110321-c362-11ec-b271-8e2c76fc05b0}.TMContainer00000000000000000001.regtrans-ms
-        ../NTUSER.DAT{e0110321-c362-11ec-b271-8e2c76fc05b0}.TMContainer00000000000000000002.regtrans-ms
-        ../OneDrive/
-        ../Pictures/
-        ../Saved Games/
-        ../Searches/
-        ../Videos/
-        ../dat044/
-        ../devel/
-        ../nslookup
-        ../ntuser.dat.LOG1
-        ../ntuser.dat.LOG2
+        .....
         ../ntuser.ini
         projectLarm/
 
@@ -421,3 +290,44 @@ Writing objects: 100% (4/4), 336 bytes | 168.00 KiB/s, done.
 Total 4 (delta 0), reused 0 (delta 0), pack-reused 0
 To https://github.com/Nenwa/projectLarm.git
    283b38a..b073f9f  main -> main
+-------------------------------------------------------------
+-------------------------------------------------------------
+-------------------------------------------------------------
+-------------------------------------------------------------
+-------------------------------------------------------------
+-------------------------------------------------------------
+-------------------------------------------------------------
+-------------------------------------------------------------
+-------------------------------------------------------------
+-------------------------------------------------------------
+-------------------------------------------------------------
+so simply the orders were:
+$ git config --global pull.default current
+$ git config --global push.default current
+$ cd ~/testrepo
+$ ls 
+$ dir
+$ git clone https://github.com/Nenwa/projectLarm.git
+$ git remote add origin https://github.com/Nenwa/projectLarm.git
+$ dir
+$ ls
+$ cd ..
+$ ls
+$ cd te
+$ cd testrepo/
+$ ls
+$ dir
+$ git status
+$ git add "greetings.txt"
+$ git commit -m "Unbelievable"
+$git remote add origin https://github.com/Nenwa/TestProjekt.git
+$ git branch -M main
+$ git remote add origin https://github.com/Nenwa/TestProjekt.git
+$ git add greetings.txt
+$ git commit -M "hsdfhah"
+$ git add greetings.txt
+$ git commit -m "test"
+$ git push -u origin main
+$ git add greetings.txt
+$ git commit -m "hej u"
+$ git push
